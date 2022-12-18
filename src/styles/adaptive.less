@@ -1,0 +1,683 @@
+@media screen and (max-width: 1229px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .wrapper {
+    .container {
+      .popup__header {
+        width: auto;
+      }
+    }
+  }
+
+  .projects {
+    .projects__projectOne, .projects__projectTwo {
+      flex-direction: column;
+      align-items: center;
+
+      .project__projectOne-description {
+        max-width: 488px;
+        text-align: center;
+
+        .btnYellow {
+          margin: auto;
+        }
+
+        .btnTransparent {
+          margin: auto;
+        }
+      }
+    }
+
+  }
+
+  .technologies {
+    padding: 0 0 217px;
+
+    .container {
+      .technologies__block {
+        .technologies__mainImg {
+          .descriptionNone {
+            display: none;
+          }
+
+          .pointsForAdaptive {
+            .pointOneAdaptive {
+              display: flex;
+
+              &:hover {
+                .technologies__hideBlock {
+                  display: block;
+                }
+              }
+            }
+
+            .pointTwoAdaptive {
+              display: block;
+            }
+
+            .pointThreeAdaptive {
+              display: block;
+            }
+
+            .pointFourAdaptive {
+              display: block;
+            }
+
+            .pointFiveAdaptive {
+              display: block;
+            }
+          }
+          .technologies__hideBlock {
+
+            &::before {
+              content: '';
+              position: absolute;
+              top: -12px;
+              left: 103px;
+              width: 0;
+              height: 0;
+              border-left: 18px solid transparent;
+              border-right: 18px solid transparent;
+              border-bottom: 20px solid #313139;
+            }
+
+            display: none;
+            position: absolute;
+            bottom: -178px;
+            max-width: 325px;
+            height: 119px;
+            background-color: #313139;
+            padding: 14px 10px 20px 16px;
+
+            h3 {
+              .carouselH3();
+              margin-bottom: 15px;
+            }
+
+            p {
+              font-family: MuseoRegular, sans-serif;
+              color: rgb(255, 255, 255);
+              line-height: 1.278;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .tourEntry {
+    .container {
+      .imgPointsMap {
+        display: none;
+      }
+    }
+  }
+
+  .carousel {
+    .container {
+      .carousel__main {
+        display: block;
+      }
+
+    }
+  }
+
+  .about {
+    .container {
+      .about__steps {
+        .about__steps-Three {
+          width: 300px;
+        }
+      }
+    }
+  }
+
+  .guarantee {
+    .container {
+      .guarantee__offers {
+        display: block;
+
+        .guarantee__offers-term, .guarantee__offers-termSecond {
+          max-width: 560px;
+          margin: 30px auto;
+        }
+      }
+    }
+  }
+
+  .consult {
+    .container {
+      flex-direction: column;
+
+      .consult__img {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  main {
+    .container {
+      .main__socials {
+        top: 250px;
+      }
+    }
+  }
+
+  .guarantee {
+    .container {
+      .guarantee__description {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        .one-guarantee {
+          order: 2;
+        }
+
+        .two-guarantee {
+          order: 1;
+        }
+
+        .three-guarantee {
+          order: 3;
+        }
+      }
+    }
+  }
+
+  .about {
+    .container {
+      .about__steps {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 118px;
+        justify-content: flex-start;
+        padding-left: 15px;
+      }
+    }
+  }
+
+  .projects {
+    .container {
+      .projects__projectOne {
+        .projects__projectOne-pics {
+          .projectOne__firstPic {
+            max-width: 588px;
+
+            a {
+              img {
+                width: 100%;
+              }
+            }
+          }
+
+          .projectOne__otherPics {
+            display: flex;
+            gap: 20px;
+
+            a {
+              max-width: 180px;
+
+              img {
+                width: 100%;
+              }
+            }
+          }
+
+        }
+      }
+
+      .projects__projectTwo {
+        .projects__projectOne-pics {
+          .projectOne__otherPics {
+            a {
+              max-width: 188px;
+
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    .container {
+      flex-direction: column;
+
+      .footer__socials {
+        order: 1;
+        margin-bottom: 50px;
+
+        .footer__logo {
+          margin-bottom: 47px;
+        }
+      }
+
+      .footer__contacts {
+        order: 4;
+      }
+
+      .footer__description {
+        order: 3;
+        text-align: center;
+        margin-bottom: 49px;
+
+        .footer__description-address {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .header {
+    .container {
+
+      .header__contacts {
+        display: none;
+      }
+    }
+  }
+
+
+  main {
+    .container {
+      .main__relocation-btn {
+        display: none;
+      }
+
+      .main__socials {
+        display: none;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 412px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .wrapper {
+    background-size: cover;
+  }
+
+  .header {
+    .container {
+      justify-content: flex-start;
+    }
+  }
+
+  main {
+    .container {
+      .main__content {
+        h1 {
+          font-size: 38px;
+        }
+      }
+    }
+  }
+
+  .projects {
+    .container {
+      .projects__projectOne, .projects__projectTwo {
+
+        .project__projectOne-description {
+          .projects__projectOne-options {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+
+            .optionOne {
+              .circleRaw();
+              width: 90px;
+              height: 90px;
+            }
+
+            .optionTwo {
+              .circleColumn();
+              width: 90px;
+              height: 90px;
+            }
+
+            .optionThree {
+              .circleColumn();
+              width: 90px;
+              height: 90px;
+            }
+
+            .btnYellow {
+              .btnMix();
+              width: 290px;
+              height: 50px;
+              margin-top: 30px;
+            }
+
+            .btnTransparent {
+              background: rgba(255, 255, 255, 0);
+              border: 1px solid white;
+              cursor: pointer;
+              border-radius: 30px;
+              width: 290px;
+              height: 50px;
+
+              a {
+                text-decoration: none;
+                font-family: MuseoBold, sans-serif;
+                font-size: 14px;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .consult {
+    .container {
+      .consult__form form {
+        .inputBtn-transparent {
+          width: 290px;
+          height: 50px;
+        }
+
+        #consultBtn {
+          width: 290px;
+          height: 50px;
+        }
+
+        .inputCheck {
+          width: 333px;
+          margin-left: 43px;
+        }
+      }
+    }
+  }
+
+  .guarantee {
+    .container {
+      .guarantee__btn-transparent {
+        .guarantee-btn {
+          width: 290px;
+          height: 50px;
+
+          a {
+            font-size: 14px;
+          }
+        }
+      }
+
+      .guarantee__offers {
+        .guarantee__offers-term, .guarantee__offers-termSecond {
+          padding: 0 0 0 20px;
+        }
+      }
+    }
+  }
+
+  .carousel__main-slick {
+    padding: 0;
+  }
+
+  .tourEntry {
+    .tourEntry__about {
+      h2 {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .header {
+    margin-bottom: 178px;
+  }
+
+  main {
+    .container {
+      .main__content {
+        h1 {
+          font-size: 26px;
+        }
+
+        p {
+          font-size: 14px;
+          padding: 15px 0 30px;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .projects {
+    padding: 0 0 90px;
+
+    .container {
+      h2 {
+        font-size: 30px;
+        text-align: left;
+      }
+
+      .projects__projectOne, .projects__projectTwo {
+        display: flex;
+        grid-template-columns: repeat(1, minmax(320px, 320px));
+        grid-template-rows: repeat(4);
+        position: relative;
+
+        .projects__projectOne-pics {
+          //grid-row: 2 / 4;
+          order: 1;
+          position: absolute;
+          gap: 15px;
+          top: 51px;
+
+          .projectOne__firstPic {
+
+          }
+
+          .projectOne__otherPics {
+            //display: grid;
+            //grid-template-columns: repeat(3, minmax(90px, 91px));
+            //grid-template-rows: repeat(1, minmax(94px, 85px));
+            //grid-gap: 5px;
+            display: flex;
+            gap: 18px;
+
+            .firstC {
+              //grid-column: 3 / 3;
+              order: 3;
+              width: 100px;
+              height: 73px;
+            }
+
+            .firstB {
+              //grid-column: 2 / 3;
+              order: 2;
+              width: 100px;
+              height: 73px;
+            }
+
+            .firstA {
+              //grid-column: 1 / 3;
+              order: 1;
+              width: 100px;
+              height: 73px;
+            }
+          }
+        }
+
+        .project__projectOne-description {
+          h3 {
+            text-align: left;
+            margin-bottom: 365px;
+          }
+
+          p {
+            text-align: left;
+          }
+        .projects__projectOne-options {
+          gap: 15px
+        }
+        }
+      }
+    }
+  }
+
+  .technologies {
+    .container {
+      .technologies__block {
+        .technologies__mainImg {
+          display: block;
+          margin-bottom: 106px;
+
+          &::before {
+            content: url("../img/sectionTechnologies/housePoint.png");
+            position: absolute;
+            bottom: -22px;
+            left: 95px;
+            z-index: 3;
+
+          }
+
+          .technologies__hideBlock {
+
+            &::before {
+              content: '';
+              position: absolute;
+              top: -12px;
+              left: 112px;
+              width: 0;
+              height: 0;
+              border-left: 18px solid transparent;
+              border-right: 18px solid transparent;
+              border-bottom: 20px solid #313139;
+
+            }
+
+            display: block;
+            position: absolute;
+            bottom: -136px;
+            max-width: 295px;
+            height: 119px;
+            background-color: #313139;
+            padding: 14px 10px 8px 16px;
+
+            h3 {
+              .carouselH3();
+            }
+
+            p {
+              font-family: MuseoRegular, sans-serif;
+              color: rgb(255, 255, 255);
+              line-height: 1.278;
+
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  .about {
+    padding: 0 0 99px 0;
+
+    .container {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .carousel {
+    .container {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .guarantee {
+    padding-bottom: 100px;
+    .container {
+      h2 {
+        font-size: 30px;
+        margin-bottom: 40px;
+      }
+
+      .guarantee__offers {
+        .guarantee__offers-term, .guarantee__offers-termSecond {
+          margin: 20px auto;
+          gap: 17px;
+          padding: 0 0 0 8px;
+
+          .offers__term-img {
+            margin-bottom: 14px;
+          }
+
+          .offers__term-about {
+
+            .offers__term-about-title {
+              font-size: 16px;
+
+              .about-description__text1 {
+
+              }
+            }
+
+            .offers__term-about-description {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
+  }
+  .consult {
+    .container {
+      .consult__img {
+        display: none;
+      }
+    }
+  }
+  .tourEntry {
+    padding: 90px 0;
+    .container {
+    .tourEntry__about {
+      p {
+        font-size: 16px;
+      }
+    }
+    }
+  }
+
+}
+
+
+@import "imports";
